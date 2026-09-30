@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bố cục cơ bản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        #main {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+
+        #head {
+            height: 100px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+            border: 1px solid #3e8e41;
+        }
+
+        #head-link {
+            height: 40px;
+            background-color: #333;
+            color: white;
+            line-height: 40px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+
+        #head-link a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        #left {
+            width: 200px;
+            min-height: 400px;
+            float: left;
+            background-color: #e2e2e2;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #content {
+            width: 580px;
+            min-height: 400px;
+            float: left;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            margin: 0 10px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #right {
+            width: 200px;
+            min-height: 400px;
+            float: left;
+            background-color: #e2e2e2;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #footer {
+            clear: both;
+            height: 60px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <div id="head">
+            Header / Logo & Banner
+        </div>
+
+        <div id="head-link">
+            <a href="#">Home</a>
+            <a href="#">Students</a>
+            <a href="#">Course</a>
+        </div>
+
+        <div id="left">
+            Left Content / Links
+        </div>
+
+        <div id="content">
+            Main Content (Hot news, Photo Slide, News 1, v.v.)
+        </div>
+
+        <div id="right">
+            Right Content (Lịch, Biểu đồ, Bản đồ)
+        </div>
+
+        <div id="footer">
+            Footer Info / Copyright & Links
+        </div>
+    </div>
+
+</body>
+</html>
